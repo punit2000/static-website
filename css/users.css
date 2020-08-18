@@ -1,0 +1,78 @@
+*{
+    
+     
+      
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     font-family: Century Gothic;
+      
+ }
+ header {
+         background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)), url(../images/wires.jpg);
+         height: 100vh;
+         background-size: cover;
+         background-position: center;
+ }
+body {
+     font-family:  Century Gothic ;
+     
+}
+.clearfix:before, .clearfix:after{
+     content: "";
+     display: table;
+}
+.clearfix:after{
+     clear: both;
+}
+a{
+     color: white;
+     text-decoration:none;
+}
+a:hover{
+     text-decoration:underline;
+}
+.form{
+     width: 300px;
+     margin-left: 40%;
+     padding-top: 15%;
+     
+}
+.form h1{
+     font-size: 40px;
+     font-weight: 200;
+     color: #00FFFF;    
+}
+input[type='text'], input[type='email'],
+input[type='password'] {
+     width: 200px;
+     background-color:  transparent;
+     border: 2px solid  #00FFFF;
+     padding: 7px;
+     color: #00FFFF;
+     font-size: 14px;
+     margin-top: 10px;
+}
+input[type='submit']{
+     
+     padding: 6px 78px 3px;
+     color: #00FFFF;
+     background-color:  transparent;
+     text-shadow:#00FFFF 0 1px 0;
+     font-size: 16px;
+     box-shadow: rgba(0,0,0,0.5) 0 2px 0 0 inset;
+     border: 2px solid  #00FFFF; 
+     border-radius: 2px;
+     margin-top: 10px;
+     cursor:pointer;
+}
+input[type='submit']:hover {
+     background-color: #00FFFF;
+     color: white;
+
+}
+p{ 
+     padding-top: 7px;
+     color: #00FFFF;
+     font-size: 20px;
+}

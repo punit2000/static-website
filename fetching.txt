@@ -1,0 +1,2 @@
+The text file has been fetched succesfully. 
+This is the content of the page.
